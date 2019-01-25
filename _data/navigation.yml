@@ -1,0 +1,314 @@
+# main links
+# main:
+#   - title: "Quick-Start Guide"
+#     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+
+# documentation links
+docs:
+  - title: "Introduction"
+    url: /docs/ko/1/
+  - title: "Commands"
+    url: /docs/ko/1/
+    children:
+      - title: "init command"
+        url: /docs/ko/1.1/
+      - title: "create command"
+        url: /docs/ko/1.2/
+      - title: "upgrade command"
+        url: /docs/ko/1.3/
+      - title: "add command"
+        url: /docs/ko/1.4/
+      - title: "delete command"
+        url: /docs/ko/1.5/
+      - title: "status command"
+        url: /docs/ko/1.6/
+      - title: "destroy command"
+        url: /docs/ko/1.7/
+  - title: "청지윈 Installation"
+    url: /docs/ko/2/
+    children:
+    - title: "virtualbox on mac"
+      url: /docs/ko/2.1/
+    - title: "baremetal on mac, linux"
+      url: /docs/ko/2.2/
+    - title: "aws on mac, linux"
+      url: /docs/ko/2.3/
+    - title: "azure on mac, linux"
+      url: /docs/ko/2.4/
+    - title: "청지윈 설치 후 기본 확인사항"
+      url: /docs/ko/2.5/
+    - title: "청지윈 설치 시 오류발생 대처방법"
+      url: /docs/ko/2.6/
+  - title: "청지윈 Hub Installation"
+    url: /docs/ko/3/
+    children:
+    - title: "Public Hub"
+      url: /docs/ko/3.1/
+    - title: "Private Hub"
+      url: /docs/ko/3.2/
+  - title: "Cluster Administration"
+    url: /docs/ko/4/
+    children:
+      - title: "Cluster Startup and Shutdown"
+        url: /docs/ko/4.1/
+      - title: "인증서 업데이트"
+        url: /docs/ko/4.2/
+      - title: "K8s version 업그레이드"
+        url: /docs/ko/4.3/
+      - title: "기존 cluster에 node 추가하기"
+        url: /docs/ko/4.4/
+      - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화"
+        url: /docs/ko/4.5/
+      - title: "기존 etcd cluster에 etcd member 추가하기"
+        url: /docs/ko/4.6/
+      - title: "Cluster 백업 및 복구"
+        url: /docs/ko/4.7/
+      - title: "암호 관리 정책"
+        url: /docs/ko/4.8/
+      - title: "Docker container disk 관리"
+        url: /docs/ko/4.9/
+  - title: "TroubleShooting"
+    url: /docs/ko/5/
+    children:
+      - title: "클러스터 health check방법"
+        url: /docs/ko/5.1/
+      - title: "특정 micro service가 kubernetes dns로 통신하지 못하는 경우"
+        url: /docs/ko/5.2/
+      - title: "NFS 접속 확인 방법"
+        url: /docs/ko/5.3/
+      - title: "Instance IP가 변경될 경우"
+        url: /docs/ko/5.4/
+      - title: "Yum 자동 업그레이드 방지"
+        url: /docs/ko/5.5/
+
+en:
+  - title: "Introduction"
+    url: /docs/en/1/
+  - title: "Commands"
+    url: /docs/en/1/
+    children:
+      - title: "init command"
+        url: /docs/en/1.1/
+      - title: "create command"
+        url: /docs/en/1.2/
+      - title: "upgrade command"
+        url: /docs/en/1.3/
+      - title: "add command"
+        url: /docs/en/1.4/
+      - title: "delete command"
+        url: /docs/en/1.5/
+      - title: "status command"
+        url: /docs/en/1.6/
+      - title: "destroy command"
+        url: /docs/en/1.7/
+  - title: "청지윈 Installation"
+    url: /docs/en/2/
+    children:
+    - title: "virtualbox on mac"
+      url: /docs/en/2.1/
+    - title: "baremetal on mac, linux"
+      url: /docs/en/2.2/
+    - title: "aws on mac, linux"
+      url: /docs/en/2.3/
+    - title: "azure on mac, linux"
+      url: /docs/en/2.4/
+    - title: "청지윈 설치 후 기본 확인사항"
+      url: /docs/en/2.5/
+    - title: "청지윈 설치 시 오류발생 대처방법"
+      url: /docs/en/2.6/
+  - title: "청지윈 Hub Installation"
+    url: /docs/en/3/
+    children:
+    - title: "Public Hub"
+      url: /docs/en/3.1/
+    - title: "Private Hub"
+      url: /docs/en/3.2/
+  - title: "Cluster Administration"
+    url: /docs/en/4/
+    children:
+      - title: "Cluster Startup and Shutdown"
+        url: /docs/en/4.1/
+      - title: "인증서 업데이트"
+        url: /docs/en/4.2/
+      - title: "K8s version 업그레이드"
+        url: /docs/en/4.3/
+      - title: "기존 cluster에 node 추가하기"
+        url: /docs/en/4.4/
+      - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화"
+        url: /docs/en/4.5/
+      - title: "기존 etcd cluster에 etcd member 추가하기"
+        url: /docs/en/4.6/
+      - title: "Cluster 백업 및 복구"
+        url: /docs/en/4.7/
+      - title: "암호 관리 정책"
+        url: /docs/en/4.8/
+      - title: "Docker container disk 관리"
+        url: /docs/en/4.9/
+  - title: "TroubleShooting"
+    url: /docs/en/5/
+    children:
+      - title: "클러스터 health check방법"
+        url: /docs/en/5.1/
+      - title: "특정 micro service가 kubernetes dns로 통신하지 못하는 경우"
+        url: /docs/en/5.2/
+      - title: "NFS 접속 확인 방법"
+        url: /docs/en/5.3/
+      - title: "Instance IP가 변경될 경우"
+        url: /docs/en/5.4/
+      - title: "Yum 자동 업그레이드 방지"
+        url: /docs/en/5.5/
+
+ja:
+  - title: "Introduction"
+    url: /docs/ja/0/
+  - title: "Commands"
+    url: /docs/ja/1/
+    children:
+      - title: "init command"
+        url: /docs/ja/1.1/
+      - title: "create command"
+        url: /docs/ja/1.2/
+      - title: "upgrade command"
+        url: /docs/ja/1.3/
+      - title: "add command"
+        url: /docs/ja/1.4/
+      - title: "delete command"
+        url: /docs/ja/1.5/
+      - title: "status command"
+        url: /docs/ja/1.6/
+      - title: "destroy command"
+        url: /docs/ja/1.7/
+  - title: "청지윈 Installation"
+    url: /docs/ja/2/
+    children:
+    - title: "virtualbox on mac"
+      url: /docs/ja/2.1/
+    - title: "baremetal on mac, linux"
+      url: /docs/ja/2.2/
+    - title: "aws on mac, linux"
+      url: /docs/ja/2.3/
+    - title: "azure on mac, linux"
+      url: /docs/ja/2.4/
+    - title: "청지윈 설치 후 기본 확인사항"
+      url: /docs/ja/2.5/
+    - title: "청지윈 설치 시 오류발생 대처방법"
+      url: /docs/ja/2.6/
+  - title: "청지윈 Hub Installation"
+    url: /docs/ja/3/
+    children:
+    - title: "Public Hub"
+      url: /docs/ja/3.1/
+    - title: "Private Hub"
+      url: /docs/ja/3.2/
+  - title: "Cluster Administration"
+    url: /docs/ja/4/
+    children:
+      - title: "Cluster Startup and Shutdown"
+        url: /docs/ja/4.1/
+      - title: "인증서 업데이트"
+        url: /docs/ja/4.2/
+      - title: "K8s version 업그레이드"
+        url: /docs/ja/4.3/
+      - title: "기존 cluster에 node 추가하기"
+        url: /docs/ja/4.4/
+      - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화"
+        url: /docs/ja/4.5/
+      - title: "기존 etcd cluster에 etcd member 추가하기"
+        url: /docs/ja/4.6/
+      - title: "Cluster 백업 및 복구"
+        url: /docs/ja/4.7/
+      - title: "암호 관리 정책"
+        url: /docs/ja/4.8/
+      - title: "Docker container disk 관리"
+        url: /docs/ja/4.9/
+  - title: "TroubleShooting"
+    url: /docs/ja/5/
+    children:
+      - title: "클러스터 health check방법"
+        url: /docs/ja/5.1/
+      - title: "특정 micro service가 kubernetes dns로 통신하지 못하는 경우"
+        url: /docs/ja/5.2/
+      - title: "NFS 접속 확인 방법"
+        url: /docs/ja/5.3/
+      - title: "Instance IP가 변경될 경우"
+        url: /docs/ja/5.4/
+      - title: "Yum 자동 업그레이드 방지"
+        url: /docs/ja/5.5/
+
+zh:
+  - title: "Introduction"
+    url: /docs/zh/1/
+  - title: "Commands"
+    url: /docs/zh/1/
+    children:
+      - title: "init command"
+        url: /docs/zh/1.1/
+      - title: "create command"
+        url: /docs/zh/1.2/
+      - title: "upgrade command"
+        url: /docs/zh/1.3/
+      - title: "add command"
+        url: /docs/zh/1.4/
+      - title: "delete command"
+        url: /docs/zh/1.5/
+      - title: "status command"
+        url: /docs/zh/1.6/
+      - title: "destroy command"
+        url: /docs/zh/1.7/
+  - title: "청지윈 Installation"
+    url: /docs/zh/2/
+    children:
+    - title: "virtualbox on mac"
+      url: /docs/zh/2.1/
+    - title: "baremetal on mac, linux"
+      url: /docs/zh/2.2/
+    - title: "aws on mac, linux"
+      url: /docs/zh/2.3/
+    - title: "azure on mac, linux"
+      url: /docs/zh/2.4/
+    - title: "청지윈 설치 후 기본 확인사항"
+      url: /docs/zh/2.5/
+    - title: "청지윈 설치 시 오류발생 대처방법"
+      url: /docs/zh/2.6/
+  - title: "청지윈 Hub Installation"
+    url: /docs/zh/3/
+    children:
+    - title: "Public Hub"
+      url: /docs/zh/3.1/
+    - title: "Private Hub"
+      url: /docs/zh/3.2/
+  - title: "Cluster Administration"
+    url: /docs/zh/4/
+    children:
+      - title: "Cluster Startup and Shutdown"
+        url: /docs/zh/4.1/
+      - title: "인증서 업데이트"
+        url: /docs/zh/4.2/
+      - title: "K8s version 업그레이드"
+        url: /docs/zh/4.3/
+      - title: "기존 cluster에 node 추가하기"
+        url: /docs/zh/4.4/
+      - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화"
+        url: /docs/zh/4.5/
+      - title: "기존 etcd cluster에 etcd member 추가하기"
+        url: /docs/zh/4.6/
+      - title: "Cluster 백업 및 복구"
+        url: /docs/zh/4.7/
+      - title: "암호 관리 정책"
+        url: /docs/zh/4.8/
+      - title: "Docker container disk 관리"
+        url: /docs/zh/4.9/
+  - title: "TroubleShooting"
+    url: /docs/zh/5/
+    children:
+      - title: "클러스터 health check방법"
+        url: /docs/zh/5.1/
+      - title: "특정 micro service가 kubernetes dns로 통신하지 못하는 경우"
+        url: /docs/zh/5.2/
+      - title: "NFS 접속 확인 방법"
+        url: /docs/zh/5.3/
+      - title: "Instance IP가 변경될 경우"
+        url: /docs/zh/5.4/
+      - title: "Yum 자동 업그레이드 방지"
+        url: /docs/zh/5.5/

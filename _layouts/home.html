@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+<a href="/cengjiyun-manual-3.0.0/docs/ko/0.0">한국어</a><br/>
+<a href="/cengjiyun-manual-3.0.0/docs/en/0.0">English</a><br/>
+<a href="/cengjiyun-manual-3.0.0/docs/zh/0.0">中国</a><br/>
